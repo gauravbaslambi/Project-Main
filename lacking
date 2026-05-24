@@ -1,0 +1,12 @@
+A real-world remote voting system should additionally include:
+
+OTP / Aadhaar / email verification
+Encrypted voting
+HTTPS
+JWT authentication
+Device fingerprinting
+Anti-bot protection
+Anonymous ballot storage
+Blockchain/audit logs
+Rate limiting
+Secure cloud hosting
