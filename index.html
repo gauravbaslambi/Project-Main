@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Mobile Voting System</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="container">
+    <h1>Online Voting</h1>
+
+    <input type="text" id="voterId" placeholder="Enter Voter ID">
+
+    <select id="candidate">
+        <option value="Candidate A">Candidate A</option>
+        <option value="Candidate B">Candidate B</option>
+        <option value="Candidate C">Candidate C</option>
+    </select>
+
+    <button onclick="submitVote()">Vote</button>
+
+    <p id="message"></p>
+
+    <hr>
+
+    <button onclick="loadResults()">View Results</button>
+
+    <ul id="results"></ul>
+</div>
+
+<script src="app.js"></script>
+</body>
+</html>
