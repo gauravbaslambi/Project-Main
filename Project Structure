@@ -1,0 +1,10 @@
+voting-app/
+│
+├── server.js
+├── package.json
+├── models/
+│   └── Vote.js
+├── public/
+│   ├── index.html
+│   ├── style.css
+│   └── app.js
